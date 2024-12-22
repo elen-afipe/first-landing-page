@@ -1,0 +1,1 @@
+This is my second project of the Odin Foundations course, which is a landing page based on given design. It will prove my basic HTML and CSS-skills, along with problem-solving ones.

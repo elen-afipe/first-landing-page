@@ -1,0 +1,192 @@
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+  }
+body {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 10px 200px;
+}
+
+.header-links {
+    display: flex;
+    gap: 10px;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+    
+.header, .footer {
+    background-color: #1f2937;
+    padding: 10px;
+}
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    border-bottom: 2px solid #F9FAF8;
+    padding: 5px;
+}
+.lower-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 200px;
+    gap: 40px;
+}
+
+.hero-text {
+    font-size: 48px;
+    color: #F9FAF8; 
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.reg-text, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button, .cta {
+    background-color: #3882F6;
+    color: #F9FAF8
+}
+
+.cta-text {
+    color: #E5E7EB;
+}
+
+.lower-button, .higher-button {
+    border-radius: 8px;
+    padding: 5px 20px;
+    min-width: 90px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #3882F6;
+    background-color: #F9FAF8;
+    border:2px solid   #F9FAF8;
+}
+button:active{ 
+    color:#F9FAF8;
+    background-color: #0060fa;
+    border:2px solid  #0060fa;
+}
+
+.higher-button {
+    border:0px;
+    margin-top: 20px;
+    border:2px solid #3882F6;
+}
+.lower-button {
+    border:2px solid #F9FAF8;
+}
+
+.gallery {
+    margin: 10px 120px;
+    padding: 20px;
+}
+
+.gal-header {
+    font-size: 36px;
+    color: #1F2937; 
+    font-weight: 900;
+    text-align: center;
+    margin: 20px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 205px;
+}
+.description {
+    text-align: center;
+}
+.quote {
+background-color: #E5E7EB;
+padding: 20px;
+display: flex;
+flex-direction: column;
+}
+ .quote-text {
+    
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f29379d; 
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+ }
+
+ .quote-author {
+    text-align: right;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+ }
+
+ .cta {
+    margin: 40px 200px;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    border-radius: 8px;
+}
+.cta-header {
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+}
+
+ .footer {
+    text-align: center;
+    padding: 20px;
+ }
+ 
+ .round-img {
+height:300px;
+border-radius: 8px;
+ }
+img {
+    height:300px;  
+}
+.upper-img {
+    max-height: 200px;
+}
+ /* disable button shrinking, bottom from going up, shrinking of divs*/
